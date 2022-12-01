@@ -1,0 +1,4 @@
+StudentId:2213111434
+FullName :Apichai phuekpaiboon
+AKA :Apichai-April
+ Lab Sheet 4 : String Methods and Defined Methood
