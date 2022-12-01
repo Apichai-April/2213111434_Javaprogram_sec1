@@ -1,0 +1,48 @@
+import java.util.*;
+import javax.swing.*;
+
+public class Example_403 {
+
+	public static void main(String[] args) {
+		/*Scanner scan = new Scanner(System.in);
+		
+		*System.out.print("Input a sentence : ");
+		*String sentence = scan.nextLine();
+	    *while(!sentence.endsWith(".")) {
+	    *	 System.out.print("Input a sentence, again : ");
+		 *	 sentence = scan.nextLine();
+	    * }
+	    *System.out.println();
+	    * int countofSpace = 0;
+	    * for(int i = 0; i < sentence.length(); i++) {
+	    *	 if(sentence.charAt(i)==' ') {
+	    *	countofSpace++;
+	}*
+	    	 
+}
+	   *  System.out.println("This sentence has " + countofSpace + " spacebar.");
+	     System.out.println("This sentence has " + (countofSpace+1) + " word");
+	}
+	*/
+	String InputSen = JOptionPane.showInputDialog("Input a sentence:");{
+	while(InputSen.endsWith(" . ")) {
+		InputSen = JOptionPane.showInputDialog("Input a sentence, again:");		
+	}
+	Scanner scan = new Scanner(System.in);
+	String sentence = scan.nextLine();
+	 int countofSpace = 0;
+     for(int i = 0; i < sentence.length(); i++) {
+     if(sentence.charAt(i)==' ') {
+     countofSpace++;
+     JOptionPane.showMessageDialog(null, "This sentence has " + countofSpace + " spacebar."
+    		 + "/nThis sentence has " + (countofSpace+1) + " word");
+ }
+   }
+ }  
+}
+}
+	
+	
+	
+	
+	
