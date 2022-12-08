@@ -14,7 +14,7 @@ public class Lab401 {
 		else {
 	    FirstName=fullName.substring(0,spacebar);
 	    LastName=fullName.substring(spacebar+1);
-	    System.out.print("First Name: "+FirstName.+"\nLastName:"+LastName);
+	    System.out.print("First Name: "+FirstName+"\nLastName:"+LastName);
 
 	}
 
