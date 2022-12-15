@@ -1,4 +1,4 @@
 StudentId:2213111434
 FullName :Apichai phuekpaiboon
-AKA :Apichai-April
-Lab Sheet 5 : Repeat Lab Sheet 1-4
+AKA :Back
+Lab Sheet 6 : Array in Java
