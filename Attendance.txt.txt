@@ -1,4 +1,4 @@
 StudentId:2213111434
 FullName :Apichai phuekpaiboon
 AKA :Back
-Lab Sheet 6 : Array in Java
+ Lab Sheet 7 : Class and Object, Array of Object
