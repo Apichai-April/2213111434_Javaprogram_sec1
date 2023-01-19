@@ -1,4 +1,4 @@
 StudentId:2213111434
 FullName :Apichai phuekpaiboon
 AKA :Back
-ClassDetail:  Wrap up Lab Sheet
+ CH 8 - Encapsulation
