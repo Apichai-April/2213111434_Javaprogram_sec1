@@ -13,13 +13,13 @@ public class Theater extends Movie {
     	super(id,name,director);
 		this.theaterNo = theaterNo;
 		
-	}
+	//}
     
-    public String getTheaterName() {
+   // public String getTheaterName() {
     	if(theaterNo >= 1 && theaterNo <= 11) {
-    		return "Basic Theater";
+    //		return "Basic Theater";
     	}
-    	else if ()
+  //  	else if
 		
 		
     }
